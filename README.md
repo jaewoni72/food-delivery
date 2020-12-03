@@ -7,7 +7,7 @@
 
 # Table of contents
 
-- [예제 - 음식배달](#---)
+- [예제 - ](#---)
   - [서비스 시나리오](#서비스-시나리오)
   - [체크포인트](#체크포인트)
   - [분석/설계](#분석설계)
@@ -155,7 +155,7 @@
 
 ### 완성된 1차 모형 (적용)
 
-![image](https://user-images.githubusercontent.com/75401933/100961586-06166780-3566-11eb-93b3-4748143e06c8.png)
+![image](https://user-images.githubusercontent.com/75401933/100964027-11b85d00-356b-11eb-97b0-abd00e78c2c6.png)
 
     - View Model 추가
 
