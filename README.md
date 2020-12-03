@@ -1,6 +1,4 @@
-![image](https://user-images.githubusercontent.com/487999/79708354-29074a80-82fa-11ea-80df-0db3962fb453.png)
-
-# 예제 - 선생님-학생 매칭 서비스
+# 선생님-학생 매칭 서비스
 
 본 예제는 MSA/DDD/Event Storming/EDA 를 포괄하는 분석/설계/구현/운영 전단계를 커버하도록 구성한 예제입니다.
 이는 클라우드 네이티브 애플리케이션의 개발에 요구되는 체크포인트들을 통과하기 위한 예시 답안을 포함합니다.
@@ -158,7 +156,7 @@
 
 ### 완성된 1차 모형 (적용)
 
-![image](https://user-images.githubusercontent.com/487999/79683646-63bfa300-8266-11ea-9bc5-c0b650507ac8.png)
+![image](https://user-images.githubusercontent.com/75401933/100961586-06166780-3566-11eb-93b3-4748143e06c8.png)
 
     - View Model 추가
 
