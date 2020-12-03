@@ -156,7 +156,7 @@
 
 ![image](https://user-images.githubusercontent.com/487999/79683641-5f938580-8266-11ea-9fdb-4e80ff6642fe.png)
 
-### 완성된 1차 모형
+### 완성된 1차 모형 (적용)
 
 ![image](https://user-images.githubusercontent.com/487999/79683646-63bfa300-8266-11ea-9bc5-c0b650507ac8.png)
 
