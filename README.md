@@ -568,6 +568,40 @@ siege -c20 -t120S -v http://visit:8080/visits/600
 
 ## 무정지 재배포
 
+
 ## Persistence Volume
+visit 컨테이너를 마이크로서비스로 배포하면서 영속성 있는 저장장치(Persistent Volume)를 적용함
+
+• PVC 설정 확인
+
+kubectl describe pvc azure-pvc
+
+<img width="546" alt="01-1 화면증적(decribe)" src="https://user-images.githubusercontent.com/66051393/105042326-73933e80-5aa7-11eb-8c4f-94b46c811e56.png">
+
+• PVC Volume설정 확인
+mypage 구현체에서 해당 pvc를 volumeMount 하여 사용 (kubectl get deployment mypage -o yaml)
+
+<img width="583" alt="02 화면증적" src="https://user-images.githubusercontent.com/66051393/105042760-f87e5800-5aa7-11eb-9447-2ecb7d427623.png">
+
+• mypage pod에 접속하여 mount 용량 확인
+
+<img width="482" alt="03 mount_설정확인" src="https://user-images.githubusercontent.com/66051393/105042971-41361100-5aa8-11eb-8fa7-65efbe12fb8c.png">
+
+
+## Self-healing (liveness probe)
+mypage구현체의 deployment.yaml 소스 서비스포트를 8080이 아닌 고의로 8081로 변경하여 재배포한 후 pod 상태 확인
+
+• 정상 서비스포트 확인
+
+<img width="557" alt="01 증적자료" src="https://user-images.githubusercontent.com/66051393/105043345-c4effd80-5aa8-11eb-83db-df351905d102.png">
+
+• 비정상 상태의 pod 정보 확인
+<img width="581" alt="03 증적자료_POD비정상으로재기동" src="https://user-images.githubusercontent.com/66051393/105043596-0ed8e380-5aa9-11eb-9c46-dabe5736df9c.png">
+
+
+
+
+
+
 
 
